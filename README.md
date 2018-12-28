@@ -5,4 +5,4 @@ Simple game that allows practice on rgb colors. Background color can be changed 
 Future improvements:
 - add rgba
 - add hex colors
-- add 'give up' button
+- add 'give up' button --> DONE
