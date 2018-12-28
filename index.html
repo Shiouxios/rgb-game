@@ -13,7 +13,6 @@
 
     <div class="container">
         <h1>MAKE ME INVISIBLE</h1>
-
         
             <div class="form-inline">
                 <h2>RGB( </h2>
@@ -27,9 +26,40 @@
                 <input type="number" class="form-control mb-2 mr-sm-1 mb-sm-0" id="num3" placeholder="">
                 <h2>)</h2>
             </div>
-            <div class="row justify-content-center">
-            <button type="submit" id="submitBtn" class="btn btn-outline-primary mt-3">Submit</button>
+            <div class="form-inline row justify-content-center">
+                <button type="submit" id="submitBtn" class="btn btn-outline-primary mb-2 mr-sm-1 mb-sm-0 mt-3">Submit</button>
+                <button type="submit" id="giveUpBtn" class="btn btn-outline-primary mb-2 mr-sm-1 mb-sm-0 mt-3">Give Up!</button>
+                <button type="submit" id="resetBtn" class="btn btn-outline-primary mb-2 mr-sm-1 mb-sm-0 mt-3">Reset</button>
+            </div>
+
+            <!-- Button trigger modal -->
+        <div class="row justify-content-center">
+            <button type="button" class="btn btn-outline-primary mt-3" data-toggle="modal" data-target="#exampleModalCenter">
+            Help!
+            </button>
         </div>
+      
+      <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">How to play...</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>The aim of the game is to try and match the text colour to the background colour.</p>
+                        <p>To do this, enter 3 numbers from 0-255 in the input boxes and click submit.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
+                    </div>
+            </div>
+            </div>
+        </div>
+
     </div>
    
 
