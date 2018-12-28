@@ -1,0 +1,33 @@
+h1 {
+    color:purple;
+    text-align: center;
+}
+
+.form-inline .form-control {
+    width:100px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.form-inline {
+    justify-content: center;
+}
+
+.container {
+    margin-top: 200px;
+    justify-content: center;
+}
+
+.button {
+    border: 10px solid red;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+
+
